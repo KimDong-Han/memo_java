@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="0sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        tools:text="오늘날짜 : 2019/01/01" />
+
+
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10.00dp"
+        android:hint="제목을 입력하세요"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+
+        android:textColor="#ffff"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_marginLeft="13dp"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gall"
+        android:visibility="visible"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/content"
+        android:bufferType="spannable"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10.00dp"
+        android:hint="내용을 입력하세요"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:gravity="start"
+        android:textColor="#ffff"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/gall"
+        app:layout_constraintBottom_toTopOf="@id/fbt2"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/save_img"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

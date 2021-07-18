@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/memoitems"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    app:cardCornerRadius="10dp"
+
+    android:orientation="horizontal">
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/li"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+          <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mtitle"
+            android:layout_width="200dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="10dp"
+            android:autoSizeMaxTextSize="100sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeTextType="uniform"
+            android:ellipsize="end"
+            android:ems="15"
+            android:maxLines="1"
+            android:text="title"
+
+            tools:ignore="MissingConstraints"
+            />
+
+            <TextView
+        android:id="@+id/mcontent"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintTop_toBottomOf="@id/mtitle"
+        tools:ignore="MissingConstraints"
+                android:autoSizeMaxTextSize="100sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeTextType="uniform"
+        android:ems="15"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="content"/>
+
+
+        <TextView
+            android:id="@+id/mdate"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:paddingRight="15dp"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintRight_toLeftOf="@id/copy1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints"
+            android:autoSizeMaxTextSize="100sp"
+            android:autoSizeMinTextSize="10sp"
+            android:autoSizeTextType="uniform"
+            android:maxLength="16"
+            android:text="date" />
+              <androidx.appcompat.widget.AppCompatImageButton
+                  android:text="복"
+                  android:id="@+id/copy1"
+                  android:layout_width="40dp"
+                  app:layout_constraintRight_toRightOf="parent"
+                  android:layout_height="50dp"
+                  android:src="@drawable/cpic"
+                  android:scaleType="centerCrop"
+                  tools:ignore="MissingConstraints" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
