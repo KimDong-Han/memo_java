@@ -10,6 +10,7 @@ memoApp
 
 
 메모삭제/입력/빈 메모 저장시도할 경우 저장거부 및 안내 팝업출력
+사진저장 지원(URI사용) / 클립보드로 복사 지원
 
 Google Play - https://play.google.com/store/apps/details?id=kr.ac.kumoh.s20131582.memo_java
 
