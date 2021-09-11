@@ -49,6 +49,7 @@
 - Pop_XXX.java 파일들
 -> 메모에 첨부된 이미지뷰,핀치줌 기능등 구현
 
+- [XML파일들](https://github.com/KimDong-Han/memo_java/tree/master/app/src/main/res/layout)
 
 # 다운받기(PlayStore)
 
