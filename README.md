@@ -13,7 +13,7 @@ memoApp
 - 
 #MemoActivity.java
 <img src="https://user-images.githubusercontent.com/71119800/132938408-fd7f8174-d756-49d5-a6d7-647d52b61989.png" width="250">
-<img src=https://user-images.githubusercontent.com/71119800/132938440-d0829746-7bd8-4207-9674-9c2a6704d24d.pngwidth="250">
+<img src="https://user-images.githubusercontent.com/71119800/132938440-d0829746-7bd8-4207-9674-9c2a6704d24d.png"  width="250">
 - 메모작성 화면
 - 플로팅 버튼을 통한 사진 첨부 및 저장기능 지원
 
