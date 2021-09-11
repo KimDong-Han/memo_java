@@ -12,7 +12,7 @@ memoApp
 - 하단의 플로팅 버튼을 터치하여 메모작성
 - 
 #MemoActivity.java
-![image](https://user-images.githubusercontent.com/71119800/132938408-fd7f8174-d756-49d5-a6d7-647d52b61989.png)
+<img src="https://user-images.githubusercontent.com/71119800/132938408-fd7f8174-d756-49d5-a6d7-647d52b61989.png" width="150">
 ![image](https://user-images.githubusercontent.com/71119800/132938440-d0829746-7bd8-4207-9674-9c2a6704d24d.png)
 
 - 메모작성 화면
