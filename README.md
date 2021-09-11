@@ -5,9 +5,18 @@
 
 memoApp
 
+#MainActivity.java
+![image](https://user-images.githubusercontent.com/71119800/132938392-04e96f7f-c187-48a2-ac64-394dc0bf37b4.png)
 
+- Application실행시 가장먼저 보이는 화면
+- 하단의 플로팅 버튼을 터치하여 메모작성
+- 
+#MemoActivity.java
+![image](https://user-images.githubusercontent.com/71119800/132938408-fd7f8174-d756-49d5-a6d7-647d52b61989.png)
+![image](https://user-images.githubusercontent.com/71119800/132938440-d0829746-7bd8-4207-9674-9c2a6704d24d.png)
 
-
+- 메모작성 화면
+- 플로팅 버튼을 통한 사진 첨부 및 저장기능 지원
 
 
 
