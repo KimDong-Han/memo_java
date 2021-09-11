@@ -15,7 +15,8 @@
 - ----저장후----
 - 롱터치를 통한 복사,삭제 기능지원
 - 우측 복사버튼을 활용하여 간단복사
-- [코드보러가기](https://github.com/KimDong-Han/memo_java/blob/9855762609e657e8d17b30300a05f5151f344024/app/src/main/java/kr/ac/kumoh/s20131582/memo_java/MainActivity.java)
+
+[코드보러가기](https://github.com/KimDong-Han/memo_java/blob/9855762609e657e8d17b30300a05f5151f344024/app/src/main/java/kr/ac/kumoh/s20131582/memo_java/MainActivity.java)
 
 
 # MemoActivity.java
