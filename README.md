@@ -1,6 +1,6 @@
 # JAVA&Realm으로 만든 메모장 
 # 자바 메모장
-# 안로이드 메모장
+# 로이드 메모장
 
 
 ![image](https://user-images.githubusercontent.com/71119800/132815477-13af8c50-c73b-4e2f-b5ed-e9de34e53d62.png)
